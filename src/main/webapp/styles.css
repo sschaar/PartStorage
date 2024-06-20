@@ -1,0 +1,76 @@
+/* Allgemeine Stile für die Seite */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 5px;
+    font-size: 14px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Stile speziell für die Tabelle */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.empty {
+    background-color: red;
+    color: white;
+}
+
+/* Stile speziell für das Update-Formular */
+.update-form {
+    display: inline-block;
+}
+
+.update-form input[type="number"] {
+    width: 60px;
+}
+
+.update-form button {
+    background-color: #008CBA;
+}
+
+.update-form button:hover {
+    background-color: #005C7A;
+}
